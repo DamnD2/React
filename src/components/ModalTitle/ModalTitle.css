@@ -1,0 +1,23 @@
+.modal__title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+}
+.modal__title-header{
+	font-size: 20px;
+	line-height: 25px;
+	margin-block-start: 5px;
+	margin-block-end: 5px;
+}
+.modal__title-close{
+	max-height: 25px;
+	font-size: 25px;
+	user-select: none;
+	transition: transform .3s linear;
+}
+.modal__title-close:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
